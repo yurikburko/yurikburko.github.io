@@ -145,3 +145,9 @@ footer a:not(.nav-link) {
   margin-right: 5px;
   margin-bottom: 7px;
 }
+summary {
+  color: #4a89dc;
+}
+summary:hover {
+  color: #3b6eb0;
+}
