@@ -11,7 +11,6 @@ import { ItransitionExperience } from "./components/ItransitionExperience";
 import { ContactForm } from "./components/ContactForm";
 
 import avatar from './assets/avatar.jpg'
-import cv from './assets/Yury_Burko_Resume_09-2023.pdf'
 
 function App() {
   const ageRef = useRef<HTMLDivElement>(null);
@@ -53,7 +52,7 @@ function App() {
               <h2 className="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Yury Burko</h2>
               <p data-aos="fade-left" data-aos-delay="100">Full-Stack Software Engineer</p>
               <div className="d-print-none" data-aos="fade-left" data-aos-delay="200"><a
-                  className="btn btn-light text-dark shadow-sm mt-1 me-1" href={cv} target="_blank">Download
+                  className="btn btn-light text-dark shadow-sm mt-1 me-1" href="Yury_Burko_Resume_09-2023.pdf" target="_blank">Download
                   CV</a><a className="btn btn-success shadow-sm mt-1" href="#contact">Hire Me</a></div>
             </div>
           </div>
